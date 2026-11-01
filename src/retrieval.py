@@ -10,7 +10,8 @@ Implements the TF-IDF + Cosine Similarity baseline with support for:
 from __future__ import annotations
 
 import re
-from typing import List, Optional, Sequence, Set
+from pathlib import Path
+from typing import List, Optional, Sequence, Set, Union
 import numpy as np
 
 from pydantic import BaseModel, ConfigDict
@@ -211,7 +212,7 @@ class DenseRetriever:
         self,
         profiles: Sequence[Profile],
         model_name: str = "all-MiniLM-L6-v2",
-        cache_dir: Union[str, Path] = "data/cache",
+        cache_dir: str = "data/cache",
         force_recompute: bool = False,
         device: Optional[str] = None,
     ) -> None:
@@ -314,7 +315,7 @@ class DenseRetriever:
 def get_retriever(
     method: str,
     profiles: Sequence[Profile],
-    cache_dir: Union[str, Path] = "data/cache",
+    cache_dir: str = "data/cache",
     device: Optional[str] = None,
 ):
     """Factory creating the appropriate configured retriever for uniform comparison.

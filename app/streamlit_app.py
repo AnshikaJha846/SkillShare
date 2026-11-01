@@ -274,14 +274,24 @@ if submit or (sample_query and not query_text):
             </div>
             """, unsafe_allow_html=True)
         else:
-            # 2. RETRIEVAL & RANKING
+            # Thresholds are calibrated per-method:
+            # TF-IDF/BM25 produce low absolute cosine scores on small corpora (0.05 is already meaningful).
+            # SBERT produces true cosine similarities in [0,1] so 0.30 filters weak semantic matches.
+            _threshold_map = {
+                "tfidf": 0.05,
+                "bm25": 0.05,
+                "sbert_en": 0.30,
+                "sbert_multi": 0.30,
+            }
+            min_threshold = _threshold_map.get(retrieval_method, 0.05)
+
             with st.spinner("Ranking candidates..."):
                 retriever = get_retriever(retrieval_method, profiles)
                 results = retriever.search(
                     query_text=active_query,
                     top_k=3,
                     eligible_helper_ids=eligible_ids,
-                    min_threshold=0.15,
+                    min_threshold=min_threshold,
                 )
 
             if not results:

@@ -36,9 +36,11 @@ def normalize_text(text: str, lowercase: bool = True) -> str:
 def extract_search_text(skills: list[str], bio: str) -> str:
     """Construct an information-rich representation of a helper profile.
 
-    Focuses strictly on capability and skill evidence to avoid spurious matches
-    on practical constraint words like 'online' or 'Sunday'.
+    Skills are repeated 3× to give them stronger weight in TF-IDF/BM25/dense
+    models, ensuring skill-match dominates over incidental bio words (e.g. 'online',
+    'Sunday') that would otherwise cause off-topic recommendations.
     """
     skill_text = " ".join([s.replace("_", " ") for s in skills])
-    combined = f"{skill_text} {bio}"
+    # Repeat skills 3x so they dominate the representation
+    combined = f"{skill_text} {skill_text} {skill_text} {bio}"
     return normalize_text(combined, lowercase=True)
