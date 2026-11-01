@@ -1,0 +1,17 @@
+# Core data handling & numerical computation
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+
+# Machine learning & retrieval
+scikit-learn==1.8.0
+rank-bm25==0.2.2
+sentence-transformers==6.2.0
+torch==2.11.0
+
+# Web application & interface
+streamlit==1.66.1
+
+# Validation & testing
+pydantic==2.14.2
+pytest==9.2.0

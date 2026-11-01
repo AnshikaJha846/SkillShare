@@ -1,0 +1,510 @@
+[
+  {
+    "query_id": "Q001",
+    "text": "Looking for someone to help improve my CV for upcoming software internships.",
+    "category": "paraphrased",
+    "constraints": [
+      {"field": "language", "value": "English", "rule": "preferred"},
+      {"field": "availability", "value": "Saturday", "rule": "preferred"},
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H001", "H006", "H013", "H021", "H039", "H048"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q002",
+    "text": "Want to learn six-string acoustic basics, chords and strumming songs.",
+    "category": "paraphrased",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H003", "H014", "H035", "H054", "H082", "H102"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q003",
+    "text": "Need someone to teach me computer programming and writing scripts to automate tasks.",
+    "category": "paraphrased",
+    "constraints": [
+      {"field": "language", "value": "English", "rule": "preferred"},
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H002", "H016", "H026", "H052", "H076"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q004",
+    "text": "Looking for assistance with calculus integration, coordinate geometry, and high school algebra problems.",
+    "category": "paraphrased",
+    "constraints": [
+      {"field": "session_mode", "value": "both", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H007", "H023", "H046", "H062", "H090", "H108"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q005",
+    "text": "Need someone experienced to edit and proofread my master's thesis dissertation before final university submission.",
+    "category": "paraphrased",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H009", "H030", "H053", "H075", "H095", "H111"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q006",
+    "text": "Want to learn how to produce promotional video clips, reel transitions, and YouTube video editing.",
+    "category": "paraphrased",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H010", "H032", "H057", "H081", "H098"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q007",
+    "text": "Need advice on keeping my balcony plants healthy, choosing potting soil, and making organic compost.",
+    "category": "paraphrased",
+    "constraints": [
+      {"field": "session_mode", "value": "in_person", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H011", "H037", "H073", "H097"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q008",
+    "text": "Want to build confidence when speaking before an audience and learn how to present slides effectively.",
+    "category": "paraphrased",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H017", "H031", "H050", "H074", "H107"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q009",
+    "text": "Need help preparing for academic IELTS speaking and writing tasks to improve my band score.",
+    "category": "paraphrased",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H024", "H043", "H069", "H089", "H109"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q010",
+    "text": "Looking for piano keyboard lessons for complete beginners: scales, hand posture, and simple chord melodies.",
+    "category": "paraphrased",
+    "constraints": [
+      {"field": "session_mode", "value": "in_person", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H018", "H041", "H066", "H096"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q011",
+    "text": "I run a small shop and need help organizing my numbers and sales sheets better.",
+    "category": "vague",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H004", "H016", "H025", "H047", "H088", "H112"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q012",
+    "text": "I get anxious and terrified when I have to speak in front of a group of people.",
+    "category": "vague",
+    "constraints": [],
+    "relevant_helper_ids": ["H017", "H031", "H074", "H107"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q013",
+    "text": "I want to create a clean personal website to showcase my craft work and portfolio.",
+    "category": "vague",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H002", "H005", "H022", "H065", "H084", "H106"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q014",
+    "text": "I sit at my desk all day and want some gentle stretching and core movement at home.",
+    "category": "vague",
+    "constraints": [
+      {"field": "availability", "value": "Weekday mornings", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H015", "H033", "H056", "H083", "H104"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q015",
+    "text": "Getting ready for campus hiring drives and don't know what questions recruiters ask in interviews.",
+    "category": "vague",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H001", "H013", "H039", "H055", "H064", "H092", "H114"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q016",
+    "text": "I want to learn how to write stories and develop interesting fictional characters.",
+    "category": "vague",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H009", "H030", "H061", "H087", "H113"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q017",
+    "text": "I want to understand relational data, write queries, and extract business metrics.",
+    "category": "vague",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H012", "H025", "H059", "H070", "H088", "H105"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q018",
+    "text": "I want to learn an Indian language so I can speak with my grandparents in Punjab.",
+    "category": "vague",
+    "constraints": [
+      {"field": "session_mode", "value": "both", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H008", "H027", "H044", "H058", "H072", "H086", "H103"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q019",
+    "text": "I want to learn how to sing in tune and do proper vocal warmups without straining my voice.",
+    "category": "vague",
+    "constraints": [
+      {"field": "session_mode", "value": "both", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H018", "H044", "H077", "H110"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q020",
+    "text": "I need help with high school science problems involving forces, acceleration, and circuits.",
+    "category": "vague",
+    "constraints": [
+      {"field": "session_mode", "value": "both", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H007", "H029", "H046", "H068", "H078", "H099"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q021",
+    "text": "Looking for help with both high school calculus and introductory physics.",
+    "category": "multi_skill",
+    "constraints": [
+      {"field": "availability", "value": "Sunday", "rule": "preferred"},
+      {"field": "session_mode", "value": "both", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H007", "H046", "H078"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q022",
+    "text": "Need someone who can design social media posters and also edit short promotional reels.",
+    "category": "multi_skill",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H010", "H081"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q023",
+    "text": "Looking for a mentor to teach Python coding and how to automate data analysis in Excel spreadsheets.",
+    "category": "multi_skill",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H016", "H063"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q024",
+    "text": "Need help reviewing my resume and conducting mock behavioral interview practice for campus hiring.",
+    "category": "multi_skill",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H001", "H013", "H039", "H064", "H114"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q025",
+    "text": "Want to learn web development with HTML and CSS frontend plus Python backend scripting.",
+    "category": "multi_skill",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H002", "H045", "H106"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q026",
+    "text": "Looking for help with SQL database queries and foundational machine learning modeling.",
+    "category": "multi_skill",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H012", "H070"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q027",
+    "text": "Need guidance to improve my English speaking fluency and prepare for the IELTS exam.",
+    "category": "multi_skill",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H024", "H043", "H089"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q028",
+    "text": "Want to learn both acoustic guitar strumming and basic vocal pitch training together.",
+    "category": "multi_skill",
+    "constraints": [
+      {"field": "session_mode", "value": "both", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H110"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q029",
+    "text": "Looking for assistance with university essay proofreading and professional resume editing.",
+    "category": "multi_skill",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H075"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q030",
+    "text": "Need a coach to revamp my resume and optimize my LinkedIn profile for executive job search.",
+    "category": "multi_skill",
+    "constraints": [
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H021", "H114"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q031",
+    "text": "Mujhe interview preparation ke liye CV check karwana hai, weekend pe Punjabi ya English mein.",
+    "category": "code_mixed",
+    "constraints": [
+      {"field": "language", "value": "Punjabi", "rule": "required"},
+      {"field": "availability", "value": "Saturday", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H001", "H039", "H114"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q032",
+    "text": "Mainu Python sikhna hai shuru to, weekend te online koi class mil sakdi hai?",
+    "category": "code_mixed",
+    "constraints": [
+      {"field": "language", "value": "Punjabi", "rule": "required"},
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H052", "H094", "H106"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q033",
+    "text": "College project ke liye React aur frontend JavaScript sikhna hai urgently, Hindi ya English chalega.",
+    "category": "code_mixed",
+    "constraints": [
+      {"field": "language", "value": "Hindi", "rule": "required"},
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H002", "H022", "H045", "H084"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q034",
+    "text": "Mainu Gurmukhi parhni te bolni sikhni hai, North area vich tutor chahida hai.",
+    "category": "code_mixed",
+    "constraints": [
+      {"field": "language", "value": "Punjabi", "rule": "required"},
+      {"field": "location_area", "value": "North", "rule": "required"}
+    ],
+    "relevant_helper_ids": ["H008", "H044", "H058", "H072", "H086", "H103"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q035",
+    "text": "Excel sheets mein pivot table aur lookup formulas sikhne hain shop ke accounts ke liye, Hindi mein.",
+    "category": "code_mixed",
+    "constraints": [
+      {"field": "language", "value": "Hindi", "rule": "required"},
+      {"field": "session_mode", "value": "online", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H016", "H025", "H047", "H088", "H112"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q036",
+    "text": "ਮੈਨੂੰ ਵੈੱਬਸਾਈਟ ਬਣਾਉਣ ਲਈ HTML, CSS ਅਤੇ ਜਾਵਾਸਕ੍ਰਿਪਟ ਸਿੱਖਣੀ ਹੈ।",
+    "category": "code_mixed",
+    "constraints": [
+      {"field": "language", "value": "Punjabi", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H005", "H065", "H106"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q037",
+    "text": "मुझे डेटा साइंस और पाइथन प्रोग्रामिंग सीखने के लिए मेंटर चाहिए जो हिंदी में समझा सके।",
+    "category": "code_mixed",
+    "constraints": [
+      {"field": "language", "value": "Hindi", "rule": "required"}
+    ],
+    "relevant_helper_ids": ["H002", "H016", "H026", "H042", "H076"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q038",
+    "text": "ਮੈਨੂੰ ਆਈਲੈਟਸ (IELTS) ਇਮਤਿਹਾਨ ਲਈ ਅੰਗਰੇਜ਼ੀ ਲਿਖਣ ਅਤੇ ਬੋਲਣ ਦੀ ਤਿਆਰੀ ਕਰਨੀ ਹੈ।",
+    "category": "code_mixed",
+    "constraints": [
+      {"field": "language", "value": "Punjabi", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H069", "H089"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q039",
+    "text": "मुझे गिटार बजाना सीखना है, बेसिक कॉर्ड्स और आसान गाने बजाने के लिए।",
+    "category": "code_mixed",
+    "constraints": [
+      {"field": "language", "value": "Hindi", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H014", "H054", "H102", "H110"],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q040",
+    "text": "ਮੈਨੂੰ ਗਣਿਤ (Maths) ਅਤੇ ਭੌਤਿਕ ਵਿਗਿਆਨ (Physics) ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ ਹੱਲ ਕਰਨ ਵਿੱਚ ਮਦਦ ਚਾਹੀਦੀ ਹੈ।",
+    "category": "code_mixed",
+    "constraints": [
+      {"field": "language", "value": "Punjabi", "rule": "preferred"}
+    ],
+    "relevant_helper_ids": ["H023", "H062", "H078", "H108"],
+    "split": "test"
+  },
+  {
+    "query_id": "Q041",
+    "text": "Looking for certified scuba diving lessons and open water PADI training certification.",
+    "category": "no_match",
+    "constraints": [],
+    "relevant_helper_ids": [],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q042",
+    "text": "Need professional neurosurgery clinical board exam consultation and surgical case review.",
+    "category": "no_match",
+    "constraints": [],
+    "relevant_helper_ids": [],
+    "split": "test"
+  },
+  {
+    "query_id": "Q043",
+    "text": "Looking for flight simulator training for Boeing commercial pilot multi-engine rating.",
+    "category": "no_match",
+    "constraints": [],
+    "relevant_helper_ids": [],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q044",
+    "text": "Need master watchmaker guidance on antique mechanical pocket watch escapement restoration.",
+    "category": "no_match",
+    "constraints": [],
+    "relevant_helper_ids": [],
+    "split": "test"
+  },
+  {
+    "query_id": "Q045",
+    "text": "Looking for blacksmithing and traditional coal forge iron anvil metalworking tutoring.",
+    "category": "no_match",
+    "constraints": [],
+    "relevant_helper_ids": [],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q046",
+    "text": "Need an in-person acoustic guitar teacher available strictly on Wednesday mornings in South Zone who speaks fluent French.",
+    "category": "no_match",
+    "constraints": [
+      {"field": "language", "value": "French", "rule": "required"},
+      {"field": "session_mode", "value": "in_person", "rule": "required"},
+      {"field": "location_area", "value": "South", "rule": "required"},
+      {"field": "availability", "value": "Wednesday mornings", "rule": "required"}
+    ],
+    "relevant_helper_ids": [],
+    "split": "test"
+  },
+  {
+    "query_id": "Q047",
+    "text": "Looking for a German-speaking mentor for resume review who can meet in-person strictly in East Zone on Mondays.",
+    "category": "no_match",
+    "constraints": [
+      {"field": "language", "value": "German", "rule": "required"},
+      {"field": "session_mode", "value": "in_person", "rule": "required"},
+      {"field": "location_area", "value": "East", "rule": "required"}
+    ],
+    "relevant_helper_ids": [],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q048",
+    "text": "Need a Python programming tutor who speaks fluent Telugu and is available for in-person sessions on Tuesday mornings.",
+    "category": "no_match",
+    "constraints": [
+      {"field": "language", "value": "Telugu", "rule": "required"},
+      {"field": "session_mode", "value": "in_person", "rule": "required"},
+      {"field": "availability", "value": "Tuesday mornings", "rule": "required"}
+    ],
+    "relevant_helper_ids": [],
+    "split": "test"
+  },
+  {
+    "query_id": "Q049",
+    "text": "Need a high school mathematics tutor who speaks Russian and offers in-person tutoring in West Zone on Thursday evenings.",
+    "category": "no_match",
+    "constraints": [
+      {"field": "language", "value": "Russian", "rule": "required"},
+      {"field": "session_mode", "value": "in_person", "rule": "required"},
+      {"field": "location_area", "value": "West", "rule": "required"}
+    ],
+    "relevant_helper_ids": [],
+    "split": "validation"
+  },
+  {
+    "query_id": "Q050",
+    "text": "Looking for an in-person video editing coach who speaks Japanese and can teach in North Zone on Friday afternoons.",
+    "category": "no_match",
+    "constraints": [
+      {"field": "language", "value": "Japanese", "rule": "required"},
+      {"field": "session_mode", "value": "in_person", "rule": "required"},
+      {"field": "location_area", "value": "North", "rule": "required"}
+    ],
+    "relevant_helper_ids": [],
+    "split": "test"
+  }
+]
